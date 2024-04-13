@@ -1,0 +1,29 @@
+/* make navigation banner go across screeen */
+/* make it all not UGLY */
+
+
+header li{
+    list-style-type: none;
+    display: inline;
+    /**lays item across the page; horizontal**/
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    background-color: #5e5e5e;
+    color: white;
+    padding: 1em;
+    justify-content: center;
+}
+
+#navigation ul li a:hover {
+    background-color: #5e5e5e;
+    color: #3d3d3d;
+}
+
+#navigation li{
+    text-decoration: none;
+    background-color: #5e5e5e;
+    color: white;
+    padding: 1em;
+}
